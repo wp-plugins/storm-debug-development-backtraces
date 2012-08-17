@@ -3,7 +3,7 @@ Contributors: stormuk, lgladdy
 Tags: developers, debug, backtrace
 Requires at least: 3.2
 Tested up to: 3.4
-Stable tag: 0.2
+Stable tag: 0.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,7 +24,7 @@ Upload the development-debug-backtraces.php file to the plugin directory. Ensure
 
 == Changelog ==
 
-= 0.2 =
+= 0.2.1 =
 * Add GPLv2 license properly
 * Rename plugin to something a little less corporate ;)
 * Disable backtraces for E_STRICT error types, as even wordpress generates a few of these in released code. The next release will allow you to customise what error types to display backtraces for.
